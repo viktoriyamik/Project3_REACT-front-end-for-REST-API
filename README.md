@@ -18,7 +18,7 @@ POST: https://project2-node-js-site-rest-api.onrender.com/api/add </br>
 PATCH: https://project2-node-js-site-rest-api.onrender.com/api/update/:id </br>
 DELETE: https://project2-node-js-site-rest-api.onrender.com/api/delete/:id </br>
 
-## About the App </br>
+## About the App
 - Each Person has id, name, weight, age. </br>
 - One can create, fetch, update, and delete Person information. </br>
 
@@ -30,10 +30,10 @@ When the Edit button is pressed the page leads to Edit page where person info ca
 
 One can Add new person by going to Add page, where one can enter Name, Weight and Age and save the person info. </br>
 
-## The App use case </br>
+## The App use case
 This application can be used in healthcare sector or in some fitness area to track a person current weight and age. </br>
 
-### Set port </br>
+### Set port 
 .env
 ```
 PORT=8081
@@ -41,12 +41,22 @@ PORT=8081
 
 ## Project setup 
 
-In the project directory run:
+In the project directory run: 
+```
 npm install node
-
+```
 ### To start
+```
 npm run-script start
+```
+```
 npm start
+```
+Open http://localhost:8081 to view it in the browser. </br>
+Change port in .env file </br>
 
-Open http://localhost:8081 to view it in the browser.
-Change port in .env file
+## Link on this project: 
+GitHub </br>
+https://github.com/viktoriyamik/Project3_REACT-front-end-for-REST-API.git </br>
+
+Render </br>
