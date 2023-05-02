@@ -1,0 +1,27 @@
+
+
+.btn  {
+    font-size: 1.05em;
+    font-weight: 700;
+    padding: 0.85em;
+    margin: 1em 0em 0em 0em;
+    border-radius: 15px !important;
+    width: 30%;  
+    color: black;
+}
+
+.btn-success {
+    background-color: rgb(48, 133, 17) !important;
+}
+
+.btn-secondary {
+    margin: 1em 1em 0em 0em;
+}
+
+h4 {
+    margin: 1em 0em 1em 0em;
+}
+
+.form-control {
+    margin: 1em 0em 1em 0em;
+}
