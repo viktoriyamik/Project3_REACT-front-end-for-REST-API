@@ -2,7 +2,7 @@ Weight and age care tracking App </br>
 
 This project was done while doing the second and third assignments for the Full-stack course at Laurea University of Applied Sciences. </br>
 
-This app is developed using React, Bootstrap, and CSS. Mongoose was used in DB queries in the second project. The Render supports hosting service. </br>
+This app is developed using React, Bootstrap, and CSS. Mongoose was used in DB queries in the second project; the database hosted in Mongo Atlas. The Render supports hosting service with the actual back end. </br>
 
 The Weight and age care tracking App displays Person information from REST API that hosted on the Render. API has 5 routes: GET, GET:id, POST, PATCH and DELETE. </br> 
 
