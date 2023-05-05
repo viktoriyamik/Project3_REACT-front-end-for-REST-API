@@ -1,4 +1,5 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/61bbc69c-8180-41f7-aa22-feff20eef0c5/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/weight-and-age-care-tracking-app",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "debug.javascript.debugByLinkOptions": "off"
 }
