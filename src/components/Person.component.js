@@ -175,7 +175,7 @@ class Person extends Component {
             <div class="modal-footer">
               
             <button
-              className="btn btn-secondary" data-bs-dismiss="modal"
+              className="btn btn-secondary" 
               onClick={this.deletePerson}
             >
               Delete
