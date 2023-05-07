@@ -7,25 +7,25 @@ function About() {
     <>
     <div class="shadow-sm card justify-content-left p-1 mb-4">
       <div class="card-body"> <br></br>
-        <h1 class="card-title">Weight and age care tracking App</h1> <br></br>
+        <h1 class="card-title">Weight and Age Tracking App</h1> <br></br>
             <p class="card-text">
-                This project was done while the second and third assignments for the Full-stack course at Laurea University of Applied Sciences. 
+                This project was done as part of the second and third assignments for the Full-stack course at Laurea University of Applied Sciences. 
                 This app is developed using React, Bootstrap, and CSS. Mongoose was used in DB queries in the second project. The Render support hosting service link&nbsp;
                  <a href="https://dashboard.render.com/web/srv-cglk5g1euhlpidere7t0" class="link-opacity-75-hover">here</a>.
             </p>
                 <br></br>
             <p class="card-text">
-                This application can be used in healthcare sector or in some fitness area to track a person current weight and age.
+                This application can be used in the healthcare or fitness sectors to track a person current weight and age.
                 <br></br>
-                Person page gives the list of Persons with Name, Weight and Age. One can search the person list by entering name in the form field.
+                The person page gives the list of persons with their name, weight and age. One can search the person list by entering a name in the form field.
             </p>
                 <br></br>
             <p class="card-text">
-                When Person name is clicked, it shows Person name, Weight and Age. One can Edit the person info by pressing Edit button.
+                When the person name is clicked, it shows the person's name, weight and age. One can edit the person's information by pressing the edit button.
                 <br></br>
-                When the Edit button is pressed the page leads to Edit page where person info can be changed, or the person can be deleted.
+                When the edit button is pressed the page leads to the edit page where the person's information can be changed or deleted.
                 <br></br>
-                One can Add new person by going to Add page, where one can enter Name, Weight and Age and save the person info. 
+                One can add a new person by going to the add page, where one can enter name, weight and age and save the person's information. 
             </p>
             <br></br>
       <div class='d-flex flex-row justify-content-left p-1 mb-4'>

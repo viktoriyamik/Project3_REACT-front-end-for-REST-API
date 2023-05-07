@@ -83,7 +83,7 @@ export default class AddPerson extends Component {
         <h4>Add new person</h4>
         {this.state.submitted ? (
           <div>
-            <h4>Confirm the addition of the new user</h4>
+            <h4>Confirm the addition of the new person</h4>
             <button className="btn btn-success" onClick={this.newPerson}>
               Confirm
             </button>
