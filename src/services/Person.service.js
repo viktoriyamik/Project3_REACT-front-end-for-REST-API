@@ -1,5 +1,7 @@
 import http from "../http-common";
 
+// define class PersonDataService
+
 class PersonDataService {
   getAll() {
     return http.get("/getall");

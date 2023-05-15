@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import PersonDataService from "../services/Person.service";
 import "../variables.css";
 
-// this is a person component
-// add person
+
+// this is Add person class
 export default class AddPerson extends Component {
   constructor(props) {
     super(props);
@@ -103,7 +103,7 @@ export default class AddPerson extends Component {
               />
             </div>
 
-            <div className="form-group mb-3">
+            <div className="form-group mb-3"> 
               <label htmlFor="weight">Weight</label>
               <input
                 type="text"

@@ -79,7 +79,6 @@ class Person extends Component {
         console.log(e);
       });
   }
-
   updatePublished(status) {
     var data = {
       id: this.state.currentPerson.id,

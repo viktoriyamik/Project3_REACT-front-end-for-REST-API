@@ -3,7 +3,7 @@ import PersonDataService from "../services/Person.service";
 import { Link } from "react-router-dom";
 import "../variables.css";
 
-
+//define class PersonList
 export default class PersonsList extends Component {
   constructor(props) {
     super(props);
@@ -45,6 +45,7 @@ export default class PersonsList extends Component {
    }
   }
 
+  // retrieve all Persons
   retrievePersons() {
     PersonDataService.getAll()
       .then(response => {
@@ -72,7 +73,7 @@ export default class PersonsList extends Component {
       currentIndex: index
     });
   }
-
+// render Persons list
   render() {
     const { searchName, Persons, currentPerson, currentIndex } = this.state;
 
